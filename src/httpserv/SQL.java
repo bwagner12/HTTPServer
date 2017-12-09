@@ -67,7 +67,6 @@ public class SQL {
 	
 	 public String selectAll(){
 		 	String sql2 = "SELECT * FROM (SELECT * FROM numbers ORDER BY id DESC LIMIT 10) ORDER BY id DESC";
-	        String sql = "SELECT firstNumber, secondNumber, result FROM numbers";
 	        String result = "Results<br>";
 	        
 	        try {
